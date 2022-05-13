@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 p {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color:#089cd1;
+  color:#7e7e7e;
 }
 body {
   background-image:url('https://wallpaperaccess.com/full/238012.jpg'); 
