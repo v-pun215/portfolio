@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+p {
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+}
+body {
+  background-image:url('https://wallpaperaccess.com/full/238012.jpg'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 17px;
+  color:white;
