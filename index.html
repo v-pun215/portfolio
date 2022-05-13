@@ -8,9 +8,12 @@
     <center>
       <div style="width:700px;height:600px;color:white;backdrop-filter: blur(5px);border: 2px solid white;border-radius:15px;padding:10px;margin-top:45px;">
         <h1 id="demo"></h1>
+        <h1 id="2"></h1>
         <script>
 var i = 0;
-var txt = 'I am a Develepor';
+var j = 0;
+var txt = 'I am a Developer';
+var tx = 'I am a Student';
 var speed = 100;
 
 function typeWriter() {
@@ -19,7 +22,13 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+  if (j < tx.length) {
+    document.getElementById("2").innerHTML += tx.charAt(j);
+    j++;
+    setTimeout(typeWriter, speed);
+  }
 }
+
 </script>
         
       </div>
