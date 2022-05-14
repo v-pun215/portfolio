@@ -11,8 +11,7 @@
 
 .widget:hover {
   background-color: #ff8c1a;
-/*  Making button bigger on hover  */
-  transform: scale(1.5) perspective(1px)
+  transform: scale(1) perspective(1px)
 }
 
 .but {
