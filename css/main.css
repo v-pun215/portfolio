@@ -11,7 +11,7 @@
 
 .widget:hover {
   background-color: #ff8c1a;
-  transform: scale(1) perspective(1px)
+  transform: scale(1.1) perspective(1px)
 }
 
 .but {
